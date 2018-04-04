@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "377345795895",
+    "firebase_url": "https://fyp-healthcare.firebaseio.com",
+    "project_id": "fyp-healthcare",
+    "storage_bucket": "fyp-healthcare.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377345795895:android:06b3968524f99c7a",
+        "android_client_info": {
+          "package_name": "com.healthcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377345795895-73g2ng5fu3qkhrquc2r83vvv9tcnta7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF2U980K4LcgyssLmwoOXpzayojyBfnso"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

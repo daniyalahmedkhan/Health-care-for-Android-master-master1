@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.healthcare">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:name=".HospitalApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/appicon"
+        android:label="Health Care"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyABxRSof60O8U4kBe0LQO9a9dyzZcw8d4I" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".manojkulkarni.firebasefinal.FinalLogin"
+            android:theme="@style/AppTheme.AppBarOverlay" />
+        <activity
+            android:name=".CardView"
+            android:theme="@style/AppTheme.AppBarOverlay" />
+        <activity
+            android:name=".MapsActivity"
+            android:theme="@style/AppTheme.AppBarOverlay" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!-- <activity -->
+        <!-- android:name=".ChatActivity" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" /> -->
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BloodDonorsActivity" />
+        <activity
+            android:name=".CardView1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".YoutubeActivity" />
+        <activity android:name=".CardView2">
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".manojkulkarni.firebasefinal.FinalRegister" />
+        <activity android:name=".manojkulkarni.firebasefinal.FinalMain" />
+        <activity android:name=".manojkulkarni.firebasefinal.FinalProfile"></activity>
+    </application>
+
+</manifest>
